@@ -1,0 +1,213 @@
+{
+    "editor.rulers": [
+        120
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "editor.lineNumbers": "relative",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "window.zoomLevel": 1,
+    "window.commandCenter": false,
+    "editor.defaultColorDecorators": "auto",
+    "notebook.lineNumbers": "on",
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#F5B539",
+        "editorCursor.foreground": "#F5B539",
+        "scrollbarSlider.background": "#6A6562",
+        "editor.selectionBackground": "#e92300",
+        "editor.selectionForeground": "#f5e130",
+        "editor.selectionHighlightBackground": "#ffffff",
+        "editor.findMatchBackground": "#fffb00", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+        "statusBar.background": "#4C4641",
+        "statusBar.foreground": "#D3BE98",
+        "statusBar.noFolderBackground": "#272528",
+        "statusBar.debuggingBackground": "#262727",
+        "statusBar.debuggingForeground": "#918D92",
+        "editorGhostText.foreground": "#00d9ff",
+        "terminal.background": "#202020"
+    },
+    "workbench.sideBar.location": "right",
+    
+    // Fonts & Typography
+    "apc.font.family": "Fira Code",
+    "apc.monospace.font.family": "Fira Code",
+    "editor.fontFamily": "D2CodingLigature Nerd Font",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    
+    // Activity & Status Bar Configuration
+    "apc.activityBar": {
+        "position": "bottom",
+        "hideSettings": true,
+        "size": 28
+    },
+    "apc.statusBar": {
+        "position": "editor-bottom",
+        "height": 28,
+        "fontSize": 12
+    },
+    // Window & Electron Settings
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 12,
+            "y": 10
+        }
+    },
+    // Terminal Configuration
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    // Editor Behavior
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestionsDelay": 1,
+    // File Associations & Spelling
+    // "files.associations": {
+    //     "*.qmd": "rmd"
+    // },
+    "vsicons.dontShowNewVersionMessage": true,
+    // Python Configuration
+    "python.defaultInterpreterPath": "/Users/stefanpetkov/miniforge3/envs/mpx-analysis-python",
+    "jupyter.enableExtendedPythonKernelCompletions": true,
+    "notebook.formatOnSave.enabled": true,
+    // R & Quarto Configuration
+    "r.plot.useHttpgd": true,
+    "r.bracketedPaste": true,
+    "r.rpath.mac": "/usr/local/bin/R",
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=/usr/local/bin/R"
+    ],
+    "r.languageServer.formattingStyle": "styler",
+    "r.lsp.debug": true,
+    "r.lsp.use_stdio": true,
+    "r.lsp.diagnostics": false,
+    "r.lsp.format": true,
+    // Language-Specific Settings
+    "[r]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.snippetSuggestions": "top",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "Posit.air-vscode"
+    },
+    "[rmd]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.snippetSuggestions": "top",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "Posit.air-vscode"
+    },
+    "[quarto]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.snippetSuggestions": "top",
+        // "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true
+        // "editor.defaultFormatter": "Posit.air-vscode"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 160,
+        "editor.rulers": [160],
+        "editor.snippetSuggestions": "top",
+        "editor.formatOnSave": false
+    },
+    // GitHub Copilot & Windsurf Settings
+    "github.copilot.enable": {
+        "quarto": false,
+        "*": false
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "windsurf.autocompleteSpeed": "fast",
+    "windsurf.autoExecutionPolicy": "off",
+    "windsurf.rememberLastModelSelection": false,
+    "windsurf.explainAndFixInCurrentConversation": false,
+    "windsurf.cascadeOpenOnReload": true,
+    "windsurf.enableAutocomplete": true,
+    // Global Settings
+    "workbench.settings.applyToAllProfiles": [
+        "r.rterm.mac"
+    ],
+    "r.rterm.mac": "/Users/stefanpetkov/miniforge3/bin/radian",
+    "windsurf.enableSupercomplete": true,
+    "windsurf.enableTabToJump": true,
+    "windsurf.showExplainProblemInlayHint": true,
+    "windsurf.chatFontSize": "default",
+    "windsurf.openRecentConversation": false,
+    "editor.tabSize": 2,
+    "windsurf.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
+    "windsurf.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.titleBarStyle": "custom",
+    "vscode_vibrancy.type": "under-window",
+    "vscode_vibrancy.opacity": -0.5,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.minimap.enabled": false,
+    "terminal.external.osxExec": "Ghostty.app",
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.profiles.osx": {
+
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.neovimInitVimPaths.darwin": "/Users/stefanpetkov/.config/nvim/init.lua",
+    "vscode-neovim.statusLineSeparator": ""
+
+    // terminal settings
+    // "terminal.integrated.profiles.osx": {
+    //     "zellij": {
+    //         "path": "zellij",
+    //         "args": [
+    //             "attach",
+    //             "--create",
+    //             "vscode-session"
+    //         ],
+    //         "icon": "zap"
+    //     }
+    // },
+    // "terminal.integrated.defaultProfile.osx": "zellij"
+}
